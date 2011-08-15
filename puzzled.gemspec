@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Chris Hunt"]
   s.email       = ["huntca@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{Generates scrambles for puzzles.}
-  s.description = %q{Generates scrambles for the 3x3x3 (Rubik's Cube), Pyraminx, and Square-1.}
+  s.summary     = %q{Rubik's Cube scramble generator.}
+  s.description = %q{Generates scrambles for, and solves, the Rubik's Cube.}
 
   s.rubyforge_project = "puzzled"
 
