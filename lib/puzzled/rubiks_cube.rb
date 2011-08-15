@@ -1,9 +1,9 @@
 module Puzzled
   class RubiksCube
     def scramble(size=25)
-      ret = []
-      size.times { ret << 0 }
-      return ret
+      scramble = []
+      size.times { scramble << "F'" }
+      return scramble
     end
   end
 end
