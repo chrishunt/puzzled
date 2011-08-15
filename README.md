@@ -4,4 +4,14 @@ Generates scrambles for, and solves, the Rubik's Cube.
 
 Current Status
 --------------
-Working on it. I'm using this gem as an opporunity to learn TDD and RubyGems.
+`Puzzled::RubiksCube.scramble` generates Rubik's Cube scrambles
+
+Usage
+-----
+
+    $ irb
+
+    > require 'puzzled'
+    > cube = Puzzled::RubiksCube.new
+    > cube.scramble     # generates typical 25-move scramble
+    > cube.scramble 5   # generates 5-move scramble
