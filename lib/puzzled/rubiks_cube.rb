@@ -28,10 +28,10 @@ module Puzzled
 
         # Find the next move from move group
         # We cannot have two turns in a row on the same face
-        move = GROUPS[group][rand(2)]
+        move = GROUPS[group][rand(GROUPS[group].size)]
         if scramble.size > 0
           while move == scramble.last[0] do
-            move = GROUPS[group][rand(2)]
+            move = GROUPS[group][rand(GROUPS[group].size)]
           end
         end
 
