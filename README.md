@@ -1,18 +1,10 @@
 Puzzled?
 ========
-Generates scrambles for, and solves, the Rubik's Cube.
-
-Current Status
---------------
-`Puzzled::RubiksCube.scramble` generates Rubik's Cube scrambles
+Generates scrambles for the Rubik's Cube.
 
 Usage
 -----
+Generate Rubik's Cube scramble of `n` length (default `n = 25`)
 
-    $ irb
+    Puzzled::RubiksCube.new.scramble(n)
 
-    > require 'puzzled'
-    > cube = Puzzled::RubiksCube.new
-    > cube.scramble     # generates typical 25-move scramble
-    > cube.scramble 5   # generates 5-move scramble
-       #=> ["F2","R","F2","U2","L2"]
