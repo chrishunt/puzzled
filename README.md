@@ -14,3 +14,10 @@ Play:
     > Puzzled::RubiksCube.new.scramble 10
 
       #=> ["F", "D'", "U", "F", "U'", "D2", "F2", "B", "U", "B'"]
+
+Test:
+
+    $ git clone git://github.com/huntca/puzzled.git
+    $ cd puzzled
+    $ bundle
+    $ rspec spec
