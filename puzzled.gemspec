@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["huntca@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Rubik's Cube scramble generator.}
-  s.description = %q{Generates scrambles for, and solves, the Rubik's Cube.}
+  s.description = %q{Generates scrambles for the Mini Cube (2x2x2), Rubik's Cube (3x3x3), Revenge Cube (4x4x4), and Professor's Cube (5x5x5).}
 
   s.rubyforge_project = "puzzled"
 
