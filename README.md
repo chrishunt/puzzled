@@ -1,5 +1,5 @@
-Puzzled?
-========
+Puzzled? ![Travis CI Status](https://secure.travis-ci.org/huntca/puzzled.png)
+=============================================================================
 Generates scrambles for the Mini Cube (2x2x2), Rubik's Cube (3x3x3), Revenge Cube (4x4x4), and Professor's Cube (5x5x5).
 
 Usage
